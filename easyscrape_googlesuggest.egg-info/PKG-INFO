@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: easyscrape-googlesuggest
-Version: 0.1.0
+Version: 0.1.1
 Summary: Easy web scraping wrapper for Google Suggest results
-Home-page: https://github.com/jamescalam/aesthetic_ascii
+Home-page: https://github.com/amazingjoe/EasyScrape-GoogleSuggest
 Author: Joseph Ucuzoglu
 Author-email: baldmancodes@gmail.com
 License: UNKNOWN
@@ -33,8 +33,11 @@ from easyscrape_googlesuggest import getsuggestions
 
 # Request suggestions for a search term
 ESResults = getsuggestions.ES_query("Mony Python")
+ESResults
+
+['monty python and the holy grail', 'monty python movies', 'monty python cast', 'monty python life of brian', 'monty python and the holy grail quotes', "monty python's flying circus", 'monty python rabbit', 'monty python quotes']
 ```
 
-3. ES_query returns a list of strings with the results.
+3. ES_query returns a list of strings with the results. You can optionally set the requests header as the second argument if you wish to include a custom header.
 
 
