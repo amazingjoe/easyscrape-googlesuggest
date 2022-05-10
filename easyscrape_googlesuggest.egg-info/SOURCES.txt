@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+easyscrape_googlesuggest/__init__.py
+easyscrape_googlesuggest/getsuggestions.py
+easyscrape_googlesuggest.egg-info/PKG-INFO
+easyscrape_googlesuggest.egg-info/SOURCES.txt
+easyscrape_googlesuggest.egg-info/dependency_links.txt
+easyscrape_googlesuggest.egg-info/top_level.txt
