@@ -13,10 +13,10 @@ pip install easyscrape-googlesuggest
 2. Get Google Suggestions for a Search Term:
 
 ```python
-from easyscrape_googlesuggest import getsuggestions
+from easyscrape_googlesuggest import getsuggestions as ES
 
 # Request suggestions for a search term
-ESResults = getsuggestions.ES_query("Mony Python")
+ESResults = ES.query("Mony Python")
 ESResults
 
 ['monty python and the holy grail', 'monty python movies', 'monty python cast', 'monty python life of brian', 'monty python and the holy grail quotes', "monty python's flying circus", 'monty python rabbit', 'monty python quotes']

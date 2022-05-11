@@ -13,7 +13,7 @@ import json
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32"
 defaultheaders = {"User-Agent":UA}
 
-def ES_query(term,headers = defaultheaders):    
+def query(term,headers = defaultheaders):    
     url_base = "https://google.com/complete/search?"
     url_client = "client=chrome&"
     url_query = f"q={term}"
