@@ -1,10 +1,11 @@
 # EasyScrape - Google Suggest Scraping Wrapper
 # Description - Pulls Google Suggest Data for a search term
 #
-# Function ES_GoogleSuggest(search_term, [optional headers]) function returns a List of string results.
+# Function query(search_term, [optional headers]) function returns a List of string results.
 #
 # Example usage:
-# for result in ES_GoogleSuggest("Web Scraping in Python"):
+# from easyscrape_googlesuggest import getsuggestions as ES
+# for result in ES.query("Web Scraping in Python"):
 #  print(result)
 
 import requests
