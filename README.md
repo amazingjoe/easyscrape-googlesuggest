@@ -1,3 +1,4 @@
+<img src="https://amazingjoe.github.io/imgs/Easyscrape.png" />
 # EasyScrape-GoogleSuggest
 
 Scrape Google Auto Suggest Results
